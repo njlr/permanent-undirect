@@ -1,0 +1,17 @@
+{
+  "name": "permredir",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "mkdir -p dist && babel index.js -o ./dist/index.js"
+  },
+  "dependencies": {
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
